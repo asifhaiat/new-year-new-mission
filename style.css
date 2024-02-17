@@ -52,15 +52,16 @@ body {
   text-align: center;
   font-weight: bolder;
   margin: auto;
+  margin-top: 50px;
 }
 
 .all-categories h1 {
-  color: #FF0000;
+  color: #ff0000;
   font-size: 2em;
 }
 
 .all-categories h3 {
-  color: #FF0000;
+  color: #ff0000;
   font-size: 12px;
   font-weight: 400;
 }
@@ -68,4 +69,38 @@ body {
 .all-categories h2 {
   color: #070211;
   font-size: 2em;
+}
+
+.midnight-party {
+  margin-top: 50px;
+  position: relative;
+}
+
+.midnight-party img {
+  max-width: 100%; /* Ensure the image is responsive */
+}
+
+.midnight-party-content {
+  color: #ffff;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+}
+
+.midnight-party-content h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.midnight-party-content p {
+  font-size: 0.8em;
+}
+
+.midnight-party button {
+  border: none;
+  color: #ffffff;
+  background-color: transparent;
+  font-size: 0.7em;
 }
