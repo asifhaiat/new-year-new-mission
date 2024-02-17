@@ -104,3 +104,26 @@ body {
   background-color: transparent;
   font-size: 0.7em;
 }
+
+.place-time{
+  margin-top: 50px;
+  padding: 50px;
+  background: linear-gradient(to bottom, #eeb1b1, #ffffff);
+  
+}
+.place-time span{
+  color: #ff0000;
+}
+
+.place-time button{
+  background-color: #ff0000;
+  border: none;
+  padding: 10px 18px;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.best-offer{
+  margin-top: 50px;
+}
